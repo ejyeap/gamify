@@ -1,0 +1,263 @@
+{
+  "player": {
+    "name": "EJ (Yeap Eu Jin)",
+    "level": 29,
+    "xp": 0,
+    "xpToNextLevel": 100000,
+    "currentClass": "Swim School Architect",
+    "nextClass": "Business Operator",
+    "nextClassUnlockLevel": 30,
+    "characterQuote": "From teaching one kid to float, to deploying capital at scale.",
+    "tagline": "For Entrepreneurs. By Entrepreneurs.",
+    "birthYear": 1990,
+    "targetAgePersonal": 40,
+    "targetAgeCompany": 50,
+    "targetAgePE": 60
+  },
+  "goals": {
+    "shortTerm": [
+      "Cash flow positive (monthly revenue >= monthly expenses)",
+      "2-month runway extended to safe levels",
+      "Clean aging report (RM166K AR recovered)",
+      "SIDEC Retail-X pitch deck submitted by Aug 18"
+    ],
+    "longTerm": [
+      "RM 10,000,000 personal liquid assets by age 40",
+      "RM 200,000,000 company valuation for Swimin12 exit by age 50",
+      "Private Equity Partner by age 60"
+    ]
+  },
+  "health": {
+    "weight": 85,
+    "weightTarget": 70,
+    "heightCm": 170,
+    "bmi": 29.4,
+    "energyLevel": 6,
+    "streakDays": 0,
+    "lastUpdated": "2026-08-11"
+  },
+  "wealth": {
+    "personalBank": 0,
+    "companyBank": 0,
+    "monthlyRevenue": 0,
+    "monthlyExpenses": 0,
+    "runwayMonths": 2,
+    "netWorthTarget": 10000000,
+    "companyValuationTarget": 200000000,
+    "currency": "RM"
+  },
+  "skills": {
+    "swimmingCoaching": 85,
+    "businessOperations": 70,
+    "financialManagement": 55,
+    "aiTechnology": 75,
+    "leadershipManagement": 60,
+    "salesMarketing": 65,
+    "investingPE": 35,
+    "healthDiscipline": 50
+  },
+  "quests": {
+    "active": [
+      {
+        "id": "G1",
+        "category": "Gold",
+        "categoryEmoji": "💰",
+        "name": "SIDEC Retail-X pitch deck (draft + Audrey slides)",
+        "priority": "CRITICAL",
+        "xp": 100,
+        "status": "Active",
+        "deadline": "2026-08-18",
+        "notes": "Submit by Aug 18. Presentation Aug 20. Speedo meeting Aug 12 may help."
+      },
+      {
+        "id": "G2",
+        "category": "Gold",
+        "categoryEmoji": "💰",
+        "name": "Speedo Day event (paid gig)",
+        "priority": "CRITICAL",
+        "xp": 80,
+        "status": "URGENT",
+        "deadline": "2026-08-12",
+        "notes": "Meeting Speedo Aug 12. Paid event!"
+      },
+      {
+        "id": "S1",
+        "category": "Shield",
+        "categoryEmoji": "🛡️",
+        "name": "RM10K transfer to Standard Chartered (loan payment)",
+        "priority": "CRITICAL",
+        "xp": 100,
+        "status": "Active",
+        "deadline": "2026-08-12",
+        "notes": "Monthly loan auto-deducted. Need enough money in UOB to transfer to SCB."
+      },
+      {
+        "id": "S2",
+        "category": "Shield",
+        "categoryEmoji": "🛡️",
+        "name": "Clean aging report (RM166K AR)",
+        "priority": "CRITICAL",
+        "xp": 100,
+        "status": "Active",
+        "deadline": "ASAP",
+        "notes": "Top financial priority. Get aging schedule with deadlines."
+      },
+      {
+        "id": "S4",
+        "category": "Shield",
+        "categoryEmoji": "🛡️",
+        "name": "LHDN personal tax refund RM14,466",
+        "priority": "CRITICAL",
+        "xp": 80,
+        "status": "Active",
+        "deadline": "ASAP",
+        "notes": "Emailed person, bounced back. MUST go to LHDN office to follow up."
+      },
+      {
+        "id": "P8",
+        "category": "Guild",
+        "categoryEmoji": "🤝",
+        "name": "Mahsa contract finalization (Charmaine)",
+        "priority": "HIGH",
+        "xp": 60,
+        "status": "Active",
+        "deadline": "2026-08-12",
+        "notes": "Operating since Jan 18 but contract still unsigned. Followed up Aug 11, promised by Aug 12."
+      }
+    ],
+    "completed": [
+      {
+        "id": "P3",
+        "name": "Marcus raise RM300 (August)",
+        "xp": 70,
+        "completedDate": "2026-08-11"
+      },
+      {
+        "id": "P4",
+        "name": "Tracy raise RM300 (August)",
+        "xp": 70,
+        "completedDate": "2026-08-11"
+      }
+    ],
+    "ideas": [
+      {
+        "id": "I1",
+        "name": "ACLF Experience Board",
+        "potential": "MEDIUM",
+        "status": "Parked"
+      },
+      {
+        "id": "I6",
+        "name": "Replicate Sungai Siput model at 2 more schools",
+        "potential": "HIGH",
+        "status": "Parked"
+      },
+      {
+        "id": "I8",
+        "name": "Water Mastery (separate entity)",
+        "potential": "HIGH",
+        "status": "DEPRIORITIZED"
+      }
+    ]
+  },
+  "bossBattles": [
+    {
+      "name": "SIDEC Retail-X Accelerator",
+      "phases": [
+        {"name": "Pitch deck refined", "status": "in-progress", "completed": false},
+        {"name": "Showcase (Aug 5)", "status": "completed", "completed": true},
+        {"name": "Top 8 (Aug 12)", "status": "in-progress", "completed": false},
+        {"name": "Submit by Aug 18, Demo Day Aug 20", "status": "pending", "completed": false},
+        {"name": "World Stage (Nov/Dec) if Top 4", "status": "pending", "completed": false}
+      ],
+      "reward": "RM20K + badges + investor exposure"
+    },
+    {
+      "name": "Cash Flow Turnaround",
+      "phases": [
+        {"name": "Pull money from Johor & Perak branches", "status": "pending", "completed": false},
+        {"name": "Clean aging report (RM166K AR)", "status": "in-progress", "completed": false},
+        {"name": "Cut expenses to break-even", "status": "pending", "completed": false},
+        {"name": "Build weekly cashflow forecast", "status": "pending", "completed": false},
+        {"name": "2-month runway extended to safe levels", "status": "pending", "completed": false}
+      ],
+      "reward": "Business survival + Crisis Manager badge"
+    },
+    {
+      "name": "25 Hours Transformation",
+      "phases": [
+        {"name": "Phase 1: Liquidation (3h) - write past 5 yrs regrets", "status": "pending", "completed": false},
+        {"name": "Phase 2: Fracture (4h) - cut off procrastination habit", "status": "in-progress", "completed": false},
+        {"name": "Phase 3: Anchor (6h) - 10-year goal, 90-day action", "status": "pending", "completed": false},
+        {"name": "Phase 4: Initiation (8h) - first minimal closed loop", "status": "pending", "completed": false},
+        {"name": "Phase 5: Solidification (4h) - public commitment", "status": "pending", "completed": false}
+      ],
+      "reward": "Phase Changer badge + personal transformation"
+    }
+  ],
+  "milestones": [
+    {"year": 2010, "class": "Freelance Swim Coach", "level": 1, "achievement": "Started teaching swimming", "revenue": 0, "completed": true},
+    {"year": 2015, "class": "Swim School Founder", "level": 11, "achievement": "Founded Swimin12", "revenue": 50000, "completed": true},
+    {"year": 2018, "class": "Swim School Founder", "level": 15, "achievement": "First branch expansion", "revenue": 150000, "completed": true},
+    {"year": 2020, "class": "Swim School Architect", "level": 21, "achievement": "Multi-branch system & automation", "revenue": 500000, "completed": true},
+    {"year": 2023, "class": "Swim School Architect", "level": 25, "achievement": "ACLF launched, AI systems deployed", "revenue": 1200000, "completed": true},
+    {"year": 2025, "class": "Swim School Architect", "level": 29, "achievement": "SIDEC Retail-X, 7 branches, AI arsenal", "revenue": 2000000, "completed": true},
+    {"year": 2030, "class": "Business Operator", "level": 35, "achievement": "10 branches, fully automated operations", "revenue": 5000000, "completed": false},
+    {"year": 2035, "class": "Business Operator", "level": 40, "achievement": "National swim school brand", "revenue": 15000000, "completed": false},
+    {"year": 2040, "class": "Investor / Group CEO", "level": 45, "achievement": "First acquisition, RM50M AUM", "revenue": 50000000, "completed": false},
+    {"year": 2050, "class": "Private Equity Partner", "level": 60, "achievement": "RM200M exit deployed", "revenue": 200000000, "completed": false}
+  ],
+  "branches": [
+    {"name": "Mahsa HQ", "location": "KL", "status": "breakeven", "students": 0, "staff": 0, "revenue": 0},
+    {"name": "UM", "location": "KL", "status": "profitable", "students": 0, "staff": 0, "revenue": 0},
+    {"name": "Sri Duyung", "location": "PJ", "status": "profitable", "students": 0, "staff": 0, "revenue": 0},
+    {"name": "Scuba G", "location": "PJ", "status": "profitable", "students": 0, "staff": 0, "revenue": 0},
+    {"name": "Subang", "location": "PJ", "status": "profitable", "students": 0, "staff": 0, "revenue": 0},
+    {"name": "Ponderosa", "location": "Johor", "status": "profitable", "students": 0, "staff": 0, "revenue": 0},
+    {"name": "Sungai Siput", "location": "Perak", "status": "breakeven", "students": 0, "staff": 0, "revenue": 0}
+  ],
+  "aiArsenal": [
+    {"name": "Littlebird", "role": "Companion AI", "equipped": true, "powerLevel": 90, "icon": "bird"},
+    {"name": "Claude", "role": "Strategist", "equipped": true, "powerLevel": 85, "icon": "brain"},
+    {"name": "ChatGPT", "role": "Generalist", "equipped": true, "powerLevel": 70, "icon": "chat"},
+    {"name": "Wispr Flow", "role": "Voice", "equipped": true, "powerLevel": 60, "icon": "mic"},
+    {"name": "Notion", "role": "Command Center", "equipped": true, "powerLevel": 50, "icon": "note"},
+    {"name": "OpenRouter", "role": "AI Gateway", "equipped": true, "powerLevel": 75, "icon": "router"}
+  ],
+  "contract25Hours": {
+    "phase": 0,
+    "letterWritten": false,
+    "letterText": "",
+    "sealed": false,
+    "habitToCut": "Avoiding work / procrastination",
+    "questions": {
+      "q1": "If I continue avoiding work, what will I lose?",
+      "q1Answer": "",
+      "q2": "If I succeed, what will I gain?",
+      "q2Answer": "",
+      "q3": "What am I willing to sacrifice?",
+      "q3Answer": ""
+    }
+  },
+  "dailyBriefing": {
+    "top3Quests": [],
+    "xpEarnedToday": 0,
+    "generativeRatio": 0,
+    "lastUpdated": "2026-08-11"
+  },
+  "gamification": {
+    "totalXpEarned": 0,
+    "currentStreak": 0,
+    "longestStreak": 0,
+    "badges": [],
+    "levelThresholds": {
+      "1": 0,
+      "2": 500,
+      "3": 1200,
+      "4": 2000,
+      "5": 3000
+    }
+  },
+  "lastUpdated": "2026-08-11T23:30:00+08:00",
+  "version": "1.0"
+}
